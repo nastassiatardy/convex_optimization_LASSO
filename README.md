@@ -4,7 +4,7 @@ Given $x_1, ..., x_n \in \mathbb{R}^d$ data vectors and $y_1, ..., y_n \in \math
 
 From an optimization point of view we want to solve the following problem called LASSO (Least Absolute Shrinkage Operator and Selection Operator):
 $
-\text{minimize} \frac{1}{2} ||Xw - y||\_2^2 + \lambda ||w||_1
+\text{minimize} \frac{1}{2} ||Xw - y||\_2^2 + \lambda ||w||\_1
 $
 
 
