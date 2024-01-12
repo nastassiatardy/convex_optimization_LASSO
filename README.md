@@ -3,9 +3,9 @@
 Given $x_1, ..., x_n \in \mathbb{R}^d$ data vectors and $y_1, ..., y_n \in \mathbb{R}$ observations, we are searching for regression parameters $w \in \mathbb{R}^d$ which fit data inputs to observations $y$ by minimizing their squared difference. In a high dimensional setting (when $n << l$) a $l_1$ norm penalty is often used on the regression coefficients $w$ in order to enforce sparsity of the solution (so that $w$ will only have a few non-zeros entries). Such penalizaion has well known statistical properties, and makers the model both more interpretable and faster at test time.
 
 From an optimization point of view we want to solve the following problem called LASSO (Least Absolute Shrinkage Operator and Selection Operator):
-$
+\\[
 \text{minimize} \frac{1}{2} ||Xw - y||\_2^2 + \lambda ||w||\_1
-$
+\\]
 
 
 in the variable $w \in \mathbb{R}^d$, where $X = (x_1^T, ..., x_n^T) \in \mathbb{R}^{n\text{x}d}$, $y=(y_1, ..., y_n) \in \mathbb{R}^n$ and $\lambda > 0$ is a regularization parameter.  
