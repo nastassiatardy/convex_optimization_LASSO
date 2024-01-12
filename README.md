@@ -8,7 +8,7 @@ $$
 $$
 
 
-in the variable $w \in \mathbb{R}^d$, where $X = (x_1^T, ..., x_n^T) \in \mathbb{R}^nxd$, $y=(y_1, ..., y_n) \in \mathbb{R}^n$ and $\lambda > 0$ is a regularization parameter.  
+in the variable $w \in \mathbb{R}^d$, where $X = (x_1^T, ..., x_n^T) \in \mathbb{R}^{n\text{x}d}$, $y=(y_1, ..., y_n) \in \mathbb{R}^n$ and $\lambda > 0$ is a regularization parameter.  
 
 # Formalize the LASSO problem as a general Quadratic Problem
 
