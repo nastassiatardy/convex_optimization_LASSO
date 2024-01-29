@@ -21,8 +21,9 @@ $`
 The corresponding Lagrangian writes, for $\nu \in \mathbb{R}^n$:
 $`
 L(w, z, \nu) = \frac{1}{2} ||z||_2^2 + \lambda ||w||_1 + \nu^t(Xw - y -z)
-`$ Therefore, the Lagrange dual function $`g`$ writes:
+`$ 
 
+Therefore, the Lagrange dual function $`g`$ writes:
 
 $`
 \begin{aligned} g(\nu) &= \text{inf}_{w\in\mathbb{R}^d, z\in\mathbb{R}^n} \left[  \frac{1}{2} |||z||_2^2 + \lambda ||w||_1 + \nu^t(Xw-y-z)\right] \\
@@ -67,7 +68,7 @@ T_2(\nu) &= \text{inf}_w \left(\lambda ||w||_1 + \nu^tXw \right) \\
 \end{aligned}
 `$
 
-And finally, 
+
 
 $`T_2(\nu)         = \begin{cases}
                         0 \ \text{if} \ ||\frac{\nu^t X}{\lambda}||_\infty \leq 1\\
